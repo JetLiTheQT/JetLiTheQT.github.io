@@ -977,6 +977,7 @@ audio {
 	transform:translate(0px,-500px);
 
 }
+
 .bannar-come {
 	-webkit-animation: bannar_come linear 6s;
 	-webkit-transform:translate(0px,0px);
@@ -989,18 +990,7 @@ audio {
 	animation: bannar_come linear 6s;
 	transform:translate(0px,0px);
 }
-.frame-come {
-	-webkit-animation: frame_come linear 6s;
-	-webkit-transform:translate(0px,0px);
-	-moz-animation: frame_come linear 6s;
-	-moz-transform:translate(0px,0px);
-	-o-animation: frame_come linear 6s;
-	-o-transform:translate(0px,0px);
-	-ms-animation: frame_come linear 6s;
-	-ms-transform:translate(0px,0px);
-	animation: frame_come linear 6s;
-	transform:translate(0px,0px);
-}
+
 @-webkit-keyframes bannar_come {
 	0%{
 		-webkit-transform:translate(0px,-1000px);
@@ -1087,6 +1077,26 @@ audio {
 	}
 }
 
+.frame{
+	max-width: 100%;
+	-webkit-transform:translate(0px,-500px);
+	-moz-transform:translate(0px,-500px);
+	-o-transform:translate(0px,-500px);
+	-ms-transform:translate(0px,-500px);
+	transform:translate(0px,-500px);
+}
+.frame-come {
+	-webkit-animation: frame_come linear 6s;
+	-webkit-transform:translate(0px,0px);
+	-moz-animation: frame_come linear 6s;
+	-moz-transform:translate(0px,0px);
+	-o-animation: frame_come linear 6s;
+	-o-transform:translate(0px,0px);
+	-ms-animation: frame_come linear 6s;
+	-ms-transform:translate(0px,0px);
+	animation: frame_come linear 6s;
+	transform:translate(0px,0px);
+}
 @-webkit-keyframes frame_come {
 	0%{
 		-webkit-transform:translate(0px,-1000px);

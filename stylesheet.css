@@ -969,7 +969,7 @@ audio {
 }
 
 .bannar {
-	max-width: 100%;
+	max-width: 50%;
 	-webkit-transform:translate(0px,-500px);
 	-moz-transform:translate(0px,-500px);
 	-o-transform:translate(0px,-500px);
@@ -1076,9 +1076,9 @@ audio {
 		transform:translate(0px,0px);
 	}
 }
-
 .frame{
-	max-width: 100%;
+	max-width: 50%;
+	height:auto;
 	-webkit-transform:translate(0px,-500px);
 	-moz-transform:translate(0px,-500px);
 	-o-transform:translate(0px,-500px);
@@ -1182,10 +1182,6 @@ audio {
 		transform:translate(0px,0px);
 	}
 }
-
-
-
-
 .balloons {
 	position: fixed;
 	bottom: -200px;

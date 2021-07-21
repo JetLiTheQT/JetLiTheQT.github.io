@@ -1056,7 +1056,7 @@ audio {
 	100% {
 		-ms-transform:translate(0px,0px);
 	}
-}
+}o
 @keyframes bannar_come {
 	0%{
 		transform:translate(0px,-1000px);
@@ -1076,11 +1076,12 @@ audio {
 }
 
 .balloons {
+	position: fixed;
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
-	width: 100px;
-	height: 183px;
+	width: 40px;
+	height: 83px;
 	background-repeat: no-repeat no-repeat;
 	background-size: 100px 183px;
 }

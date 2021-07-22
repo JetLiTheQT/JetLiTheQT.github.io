@@ -9,7 +9,7 @@ body {
 	overflow-x:hidden;
 }
 .container {
-	display: none;
+	display: grid;
 }
 .peach {
 	background-color: #FFDAB9;
@@ -969,7 +969,7 @@ audio {
 }
 
 .bannar {
-	max-width: 50%;
+	max-width: 100%;
 	-webkit-transform:translate(0px,-500px);
 	-moz-transform:translate(0px,-500px);
 	-o-transform:translate(0px,-500px);
@@ -1077,7 +1077,7 @@ audio {
 	}
 }
 .frame{
-	max-width: 50%;
+	max-width: 100%;
 	height:auto;
 	-webkit-transform:translate(0px,-500px);
 	-moz-transform:translate(0px,-500px);

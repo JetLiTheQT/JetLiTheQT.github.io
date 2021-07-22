@@ -15,7 +15,7 @@
 /* Transparent Overlay */
 .loading:before {
   content: '';
-  display: block;
+  display: grid;
   position: fixed;
   top: 0;
   left: 0;
@@ -36,7 +36,7 @@
 
 .loading:not(:required):after {
   content: '';
-  display: block;
+  display: grid;
   font-size: 10px;
   width: 1em;
   height: 1em;

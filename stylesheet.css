@@ -7,7 +7,7 @@ body {
 	-ms-transition:background-color linear 5s;
 	transition:background-color linear 5s;
 	overflow-x:hidden;
-	cursor: url(test.png), auto;
+	cursor: url('test.png'), auto;
 }
 .container {
 	display: grid;

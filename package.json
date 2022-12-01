@@ -1,5 +1,5 @@
 {
-  "name": "JetLiTheQT.github.io",
+  "name": "JetLiTheQT",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio!",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.10.2",
-    "bootstrap": "^5.1.3",
+    "bootstrap": "4.3",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.2"

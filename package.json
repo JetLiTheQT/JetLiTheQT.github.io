@@ -4,10 +4,7 @@
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
-  "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cobidev/simplefolio"
@@ -20,8 +17,6 @@
   },
   "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.0",
-    "parcel": "^2.8.0",
     "prettier": "^2.4.1"
   },
   "dependencies": {

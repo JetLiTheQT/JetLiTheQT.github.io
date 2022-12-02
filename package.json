@@ -1,9 +1,9 @@
 {
-  "name": "JetLiTheQT",
+  "name": "jet",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio!",
-  "source": "src/index.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
